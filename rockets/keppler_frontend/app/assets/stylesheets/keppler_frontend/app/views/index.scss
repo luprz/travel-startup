@@ -121,7 +121,7 @@
 
 .wanna-navbar-link
 {
- color: rgb(255, 255, 255) !important;
+ color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .wanna-home-mask
@@ -217,7 +217,7 @@
  margin-left: 0px !important;
 }
 
-.wann-home-title
+.wanna-home-title
 {
  font-size: 2.5em !important;
  width: 100% !important;
@@ -246,6 +246,24 @@
 .kppl-parallax-mask.wanna-home-mask
 {
  color: rgb(4, 116, 127) !important;
+ border-top-width: 0px !important;
+ border-right-width: 0px !important;
+ border-bottom-width: 0px !important;
+ border-left-width: 0px !important;
+ border-top-style: solid !important;
+ border-right-style: solid !important;
+ border-bottom-style: solid !important;
+ border-left-style: solid !important;
+ border-top-color: rgba(255, 255, 255, 0) !important;
+ border-right-color: rgba(255, 255, 255, 0) !important;
+ border-bottom-color: rgba(255, 255, 255, 0) !important;
+ border-left-color: rgba(255, 255, 255, 0) !important;
+ border-image-source: initial !important;
+ border-image-slice: initial !important;
+ border-image-width: initial !important;
+ border-image-outset: initial !important;
+ border-image-repeat: initial !important;
+ background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 44.1026%, rgb(255, 255, 255) 99%) !important;
 }
 
 .wann-home-title-activities
@@ -279,6 +297,10 @@
  margin-right: 0px !important;
  margin-bottom: 0px !important;
  margin-left: 0px !important;
+ padding-top: 0px !important;
+ padding-right: 0px !important;
+ padding-bottom: 0px !important;
+ padding-left: 0px !important;
  width: 33% !important;
 }
 
@@ -310,7 +332,7 @@
  height: 50px !important;
 }
 
-.wanna-btn-search
+.wanna-btn-reserve
 {
  font-size: 2rem !important;
  margin-top: 4px !important;
@@ -339,7 +361,7 @@
 
 .wanna-navbar-link:hover
 {
- color: #ffffff !important;
+ color: rgb(255, 255, 255) !important;
 }
 
 .btn.btn-primary.wanna-login-btn
@@ -367,4 +389,257 @@
 .btn.btn-primary.wanna-login-btn:hover
 {
  background-color: rgb(232, 77, 77) !important;
+}
+
+.wanna-column
+{
+ padding-top: 0px !important;
+ padding-right: 0px !important;
+ padding-bottom: 0px !important;
+ padding-left: 0px !important;
+}
+
+.wanna-descover
+{
+ margin-top: 0px !important;
+ margin-right: 0px !important;
+ margin-bottom: 0px !important;
+ margin-left: 0px !important;
+ padding-top: 5rem !important;
+ padding-right: 10px !important;
+ padding-bottom: 10rem !important;
+ padding-left: 10px !important;
+}
+
+#kppl-2yzy
+{
+ padding-top: 10px !important;
+ padding-right: 10px !important;
+ padding-bottom: 10px !important;
+ padding-left: 10px !important;
+}
+
+.bstp-column
+{
+ min-height: 75px;
+}
+
+.kppl-static
+{
+ background-size: cover;
+ background-position-x: 50%;
+ background-position-y: 50%;
+ width: auto;
+ height: 400px;
+ position: relative;
+}
+
+.kppl-static > .kppl-static-mask
+{
+ background-image: initial;
+ background-position-x: initial;
+ background-position-y: initial;
+ background-size: initial;
+ background-repeat-x: initial;
+ background-repeat-y: initial;
+ background-attachment: initial;
+ background-origin: initial;
+ background-clip: initial;
+ background-color: rgba(0, 0, 0, 0.46);
+ position: relative;
+ height: 100%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ color: rgb(255, 255, 255);
+}
+
+.kppl-static .kppl-container
+{
+ max-width: 40%;
+}
+
+.kppl-static-mask
+{
+ position: relative !important;
+ align-items: flex-end !important;
+ padding-top: 10px !important;
+ padding-right: 10px !important;
+ padding-bottom: 10px !important;
+ padding-left: 10px !important;
+}
+
+.wanna-card
+{
+ height: 200px !important;
+ background-image: url("/assets/keppler_frontend/app/girl-1561989_960_720.jpg") !important;
+ background-repeat-x: no-repeat !important;
+ background-repeat-y: no-repeat !important;
+ background-position-x: 0% !important;
+ background-position-y: 0% !important;
+ background-attachment: scroll !important;
+ background-size: cover !important;
+ box-shadow: rgba(0, 0, 0, 0.53) 0px 0px 5px 0px !important;
+}
+
+.wanna-card-container
+{
+ max-width: 100% !important;
+ width: 100% !important;
+ position: relative !important;
+ bottom: -42px !important;
+ align-items: flex-end !important;
+}
+
+#kppl-6fykk
+{
+ font-size: 2rem !important;
+ text-align: left !important;
+ font-family: Roboto !important;
+}
+
+#kppl-luzkj
+{
+ text-align: left !important;
+ font-weight: 300 !important;
+ font-family: Roboto !important;
+}
+
+.wanna-card-mask
+{
+ transition-duration: 0.5s;
+ transition-timing-function: ease;
+ transition-delay: 0s;
+ transition-property: all;
+ background-color: rgba(0, 0, 0, 0) !important;
+ background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 12.6697%, rgba(0, 0, 0, 0.55) 72.1843%) !important;
+}
+
+.wanna-card-mask:hover .wanna-card-container
+{
+ transition-duration: 0.5s;
+ transition-timing-function: ease;
+ transition-delay: 0s;
+ transition-property: all;
+ bottom: 0px !important;
+}
+
+#kppl-7gwzy
+{
+ font-size: 2rem !important;
+ text-align: left !important;
+ font-family: Roboto !important;
+}
+
+#kppl-yduo7
+{
+ text-align: left !important;
+ font-weight: 300 !important;
+ font-family: Roboto !important;
+}
+
+#kppl-ezvn5
+{
+ font-size: 2rem !important;
+ text-align: left !important;
+ font-family: Roboto !important;
+}
+
+#kppl-3o2aj
+{
+ text-align: left !important;
+ font-weight: 300 !important;
+ font-family: Roboto !important;
+}
+
+#kppl-uwz82
+{
+ font-size: 2rem !important;
+ text-align: left !important;
+ font-family: Roboto !important;
+}
+
+#kppl-mgdoj
+{
+ text-align: left !important;
+ font-weight: 300 !important;
+ font-family: Roboto !important;
+}
+
+.btn.btn-primary.wanna-btn-reserve
+{
+ font-size: 1.2rem !important;
+ float: left !important;
+ margin-top: 0px !important;
+ margin-right: 0px !important;
+ margin-bottom: 0px !important;
+ margin-left: 0px !important;
+}
+
+.wanna-discover-title
+{
+ text-align: center !important;
+ font-size: 3rem !important;
+}
+
+.btn.btn-primary.wanna-btn-search
+{
+ background-color: rgb(232, 77, 77) !important;
+ border-top-width: 1px !important;
+ border-right-width: 1px !important;
+ border-bottom-width: 1px !important;
+ border-left-width: 1px !important;
+ border-top-style: solid !important;
+ border-right-style: solid !important;
+ border-bottom-style: solid !important;
+ border-left-style: solid !important;
+ border-top-color: rgb(232, 77, 77) !important;
+ border-right-color: rgb(232, 77, 77) !important;
+ border-bottom-color: rgb(232, 77, 77) !important;
+ border-left-color: rgb(232, 77, 77) !important;
+ border-image-source: initial !important;
+ border-image-slice: initial !important;
+ border-image-width: initial !important;
+ border-image-outset: initial !important;
+ border-image-repeat: initial !important;
+ font-size: 2.4rem !important;
+ margin-top: 7px !important;
+ margin-right: 0px !important;
+ margin-bottom: 0px !important;
+ margin-left: 0px !important;
+ position: relative !important;
+ top: -7px !important;
+}
+
+.wanna-discover-title-activities
+{
+ font-size: 3.5rem !important;
+ font-family: "Oleo Script" !important;
+}
+
+.kppl-static-mask.wanna-card-mask
+{
+ overflow-x: hidden !important;
+ overflow-y: hidden !important;
+}
+
+.kppl-parallax.wanna-home-img
+{
+ background-image: url(/assets/keppler_frontend/app/girl-1561989_960_720.jpg) !important;
+ background-attachment: scroll !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+ background-position: center bottom !important;
+}
+
+.kppl-static.wanna-card
+{
+ background-image: url(/assets/keppler_frontend/app/hiker-918473_960_720.jpg) !important;
+ background-repeat: no-repeat !important;
+ background-position: center center !important;
+ background-attachment: scroll !important;
+ background-size: cover !important;
 }
