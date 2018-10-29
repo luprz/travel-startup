@@ -1,0 +1,370 @@
+.navbar-brand
+{
+ font-family: "Patua One";
+ color: rgb(244, 67, 54) !important;
+ background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#kppl-uktk
+{
+ position: absolute !important;
+ z-index: 999 !important;
+ width: 100% !important;
+}
+
+.travel-navbar-index
+{
+ margin-top: 0px !important;
+ margin-right: 0px !important;
+ margin-bottom: 0px !important;
+ margin-left: 0px !important;
+ width: 100% !important;
+ background-color: rgba(248, 248, 248, 0) !important;
+}
+
+.kppl-parallax
+{
+ background-size: cover;
+ background-position-x: 50%;
+ background-position-y: 50%;
+ background-attachment: fixed;
+ width: auto;
+ position: relative;
+ height: 400px !important;
+ background-image: url("/assets/keppler_frontend/app/girl-1561989_960_720.jpg") !important;
+}
+
+.kppl-parallax > .kppl-parallax-mask
+{
+ background-image: initial;
+ background-position-x: initial;
+ background-position-y: initial;
+ background-size: initial;
+ background-repeat-x: initial;
+ background-repeat-y: initial;
+ background-attachment: initial;
+ background-origin: initial;
+ background-clip: initial;
+ background-color: rgba(0, 0, 0, 0.46);
+ position: relative;
+ height: 100%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ color: rgb(255, 255, 255);
+}
+
+.kppl-parallax .kppl-container
+{
+ max-width: 40%;
+}
+
+.container-fluid
+{
+ background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-brand.wanna-navbar-brand
+{
+ color: rgb(232, 77, 77) !important;
+ font-family: "Fredoka One" !important;
+}
+
+.kppl-parallax-mask
+{
+ border-top-width: initial !important;
+ border-right-width: initial !important;
+ border-bottom-width: initial !important;
+ border-left-width: initial !important;
+ border-top-style: solid !important;
+ border-right-style: solid !important;
+ border-bottom-style: solid !important;
+ border-left-style: solid !important;
+ border-top-color: rgba(255, 255, 255, 0) !important;
+ border-right-color: rgba(255, 255, 255, 0) !important;
+ border-bottom-color: rgba(255, 255, 255, 0) !important;
+ border-left-color: rgba(255, 255, 255, 0) !important;
+ border-image-source: initial !important;
+ border-image-slice: initial !important;
+ border-image-width: initial !important;
+ border-image-outset: initial !important;
+ border-image-repeat: initial !important;
+}
+
+.navbar.navbar-default.travel-navbar-index
+{
+ border-top-left-radius: 0px !important;
+ border-top-right-radius: 0px !important;
+ border-bottom-right-radius: 0px !important;
+ border-bottom-left-radius: 0px !important;
+ border-top-width: 0px !important;
+ border-right-width: 0px !important;
+ border-bottom-width: 0px !important;
+ border-left-width: 0px !important;
+ border-top-style: solid !important;
+ border-right-style: solid !important;
+ border-bottom-style: solid !important;
+ border-left-style: solid !important;
+ border-top-color: rgb(231, 231, 231) !important;
+ border-right-color: rgb(231, 231, 231) !important;
+ border-bottom-color: rgb(231, 231, 231) !important;
+ border-left-color: rgb(231, 231, 231) !important;
+ border-image-source: initial !important;
+ border-image-slice: initial !important;
+ border-image-width: initial !important;
+ border-image-outset: initial !important;
+ border-image-repeat: initial !important;
+}
+
+.wanna-navbar-link
+{
+ color: rgb(255, 255, 255) !important;
+}
+
+.wanna-home-mask
+{
+ background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 56.4103%, rgb(255, 255, 255) 91.3077%) !important;
+ background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.wanna-home-img
+{
+ height: 100% !important;
+}
+
+.wanna-home
+{
+ z-index: 0 !important;
+ height: 100% !important;
+}
+
+.wanna-navbar-brand
+{
+ font-size: 3rem !important;
+ color: rgb(255, 255, 255) !important;
+}
+
+.wanna-navbar-collapse
+{
+ width: 80% !important;
+ margin-top: 0px !important;
+ margin-right: auto !important;
+ margin-bottom: 0px !important;
+ margin-left: auto !important;
+}
+
+.wanna-login-btn
+{
+ background-color: rgba(248, 248, 248, 0) !important;
+ border-top-width: 1px !important;
+ border-right-width: 1px !important;
+ border-bottom-width: 1px !important;
+ border-left-width: 1px !important;
+ border-top-style: solid !important;
+ border-right-style: solid !important;
+ border-bottom-style: solid !important;
+ border-left-style: solid !important;
+ border-top-color: rgb(255, 255, 255) !important;
+ border-right-color: rgb(255, 255, 255) !important;
+ border-bottom-color: rgb(255, 255, 255) !important;
+ border-left-color: rgb(255, 255, 255) !important;
+ border-image-source: initial !important;
+ border-image-slice: initial !important;
+ border-image-width: initial !important;
+ border-image-outset: initial !important;
+ border-image-repeat: initial !important;
+}
+
+.wanna-navbar-btn
+{
+ margin-top: 8px !important;
+ margin-right: 0px !important;
+ margin-bottom: 0px !important;
+ margin-left: 0px !important;
+}
+
+.wanna-home-container
+{
+ max-width: 60% !important;
+ position: relative !important;
+ top: -5% !important;
+}
+
+#kppl-9jcd
+{
+ padding-top: 10px !important;
+ padding-right: 20px !important;
+ padding-bottom: 10px !important;
+ padding-left: 20px !important;
+}
+
+.wanna-home-search
+{
+ background-color: rgb(255, 255, 255) !important;
+ color: rgb(64, 64, 64) !important;
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 5px 0px !important;
+ padding-top: 20px !important;
+ padding-right: 20px !important;
+ padding-bottom: 20px !important;
+ padding-left: 20px !important;
+ font-family: Roboto !important;
+ margin-top: 8px !important;
+ margin-right: 0px !important;
+ margin-bottom: 10px !important;
+ margin-left: 0px !important;
+}
+
+.wann-home-title
+{
+ font-size: 2.5em !important;
+ width: 100% !important;
+ font-family: Helvetica !important;
+ text-indent: 0px !important;
+ letter-spacing: 3px !important;
+ color: rgb(255, 255, 255) !important;
+ font-weight: 900 !important;
+ margin-top: 20px !important;
+ margin-right: auto !important;
+ margin-bottom: 0px !important;
+ margin-left: auto !important;
+}
+
+.wanna-home-subtitle
+{
+ font-size: 1em !important;
+ width: 70% !important;
+ color: rgb(255, 255, 255) !important;
+ margin-top: 0px !important;
+ margin-right: auto !important;
+ margin-bottom: 10px !important;
+ margin-left: auto !important;
+}
+
+.kppl-parallax-mask.wanna-home-mask
+{
+ color: rgb(4, 116, 127) !important;
+}
+
+.wann-home-title-activities
+{
+ font-family: "Oleo Script" !important;
+ font-size: 5rem !important;
+ top: -1px !important;
+ position: relative !important;
+ font-weight: 100 !important;
+}
+
+.kppl-container.wanna-home-container
+{
+ max-width: 61% !important;
+ width: 100% !important;
+}
+
+.bstp-row
+{
+ padding-top: 10px;
+ padding-right: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ width: 100% !important;
+}
+
+.wanna-home-column
+{
+ min-height: 40px !important;
+ margin-top: 0px !important;
+ margin-right: 0px !important;
+ margin-bottom: 0px !important;
+ margin-left: 0px !important;
+ width: 33% !important;
+}
+
+.bstp-row.row
+{
+ margin-top: 0px !important;
+ margin-right: auto !important;
+ margin-bottom: 0px !important;
+ margin-left: auto !important;
+}
+
+#kppl-3gr9
+{
+ margin-top: 9px !important;
+ margin-right: 0px !important;
+ margin-bottom: 10px !important;
+ margin-left: 0px !important;
+ font-size: 3rem !important;
+}
+
+.wanna-home-column.col-lg-6
+{
+ min-height: 40px !important;
+}
+
+.wanna-home-activities
+{
+ font-size: 3rem !important;
+ height: 50px !important;
+}
+
+.wanna-btn-search
+{
+ font-size: 2rem !important;
+ margin-top: 4px !important;
+ margin-right: 0px !important;
+ margin-bottom: 0px !important;
+ margin-left: 0px !important;
+ background-color: rgb(232, 77, 77) !important;
+ border-top-width: 1px !important;
+ border-right-width: 1px !important;
+ border-bottom-width: 1px !important;
+ border-left-width: 1px !important;
+ border-top-style: solid !important;
+ border-right-style: solid !important;
+ border-bottom-style: solid !important;
+ border-left-style: solid !important;
+ border-top-color: rgb(232, 77, 77) !important;
+ border-right-color: rgb(232, 77, 77) !important;
+ border-bottom-color: rgb(232, 77, 77) !important;
+ border-left-color: rgb(232, 77, 77) !important;
+ border-image-source: initial !important;
+ border-image-slice: initial !important;
+ border-image-width: initial !important;
+ border-image-outset: initial !important;
+ border-image-repeat: initial !important;
+}
+
+.wanna-navbar-link:hover
+{
+ color: #ffffff !important;
+}
+
+.btn.btn-primary.wanna-login-btn
+{
+ background-color: rgb(232, 77, 77) !important;
+ border-top-width: 0px !important;
+ border-right-width: 0px !important;
+ border-bottom-width: 0px !important;
+ border-left-width: 0px !important;
+ border-top-style: solid !important;
+ border-right-style: solid !important;
+ border-bottom-style: solid !important;
+ border-left-style: solid !important;
+ border-top-color: rgb(232, 77, 77) !important;
+ border-right-color: rgb(232, 77, 77) !important;
+ border-bottom-color: rgb(232, 77, 77) !important;
+ border-left-color: rgb(232, 77, 77) !important;
+ border-image-source: initial !important;
+ border-image-slice: initial !important;
+ border-image-width: initial !important;
+ border-image-outset: initial !important;
+ border-image-repeat: initial !important;
+}
+
+.btn.btn-primary.wanna-login-btn:hover
+{
+ background-color: rgb(232, 77, 77) !important;
+}

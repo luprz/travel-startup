@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html id="keppler-html">
+  <head>
+    <%= set_head %>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Candal|Fredoka+One|Oleo+Script|Roboto" rel="stylesheet">
+  </head>
+  <body id="keppler-editor">
+    <keppler-header>
+      <!-- Keppler Section -->
+    </keppler-header>
+    <%= yield %>
+    <keppler-footer>
+      <!-- Keppler Section -->
+    </keppler-footer>
+  </body>
+  <%= keppler_editor %>
+</html>
